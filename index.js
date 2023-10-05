@@ -33,7 +33,7 @@ app.get('/all', (req, res) => {//
     })//
 })//
 
-app.get("/search/:name" , (req,res) =>{
+app.get("/search/:chavePrimaria" , (req,res) =>{
 
     let resultado =  methods.findOne({chavePrimaria: req.params.chavePrimaria})//
     .then(//
