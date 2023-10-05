@@ -35,7 +35,7 @@ app.get('/all', (req, res) => {//
 
 app.get("/search/:name" , (req,res) =>{
 
-    let resultado =  methods.findOne({nome: req.params.name})//
+    let resultado =  methods.findOne({chavePrimaria: req.params.chavePrimaria})//
     .then(//
         (resultado) => {//
             if(resultado){//
