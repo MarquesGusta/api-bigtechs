@@ -17,14 +17,14 @@ Retorna todo o conteúdo da api.
 ### `/search/:chavePrimaria`
 Retorna o vetor que possui aquela chave primária específica.
 
-### Parameters
+## Parameters
 
-## - all
+### - all
   Retorna todos os vetores.
-## - search
+### - search
   Retorna apenas o vetor do item consultado.
 
-### Response
+## Response
 
 Pode retornar objetos JSON com as seguintes propriedades:
 
