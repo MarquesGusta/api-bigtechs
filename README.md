@@ -53,7 +53,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ![image](https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(3).png?raw=true)
 
 ## Erros
-
+ 
 ### Esta API usa os seguintes códigos de erro:
 
 - `404 Not Found`: Erro na requisição.
