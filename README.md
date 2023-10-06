@@ -43,7 +43,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ### Request:
 
 #### GET /all
----imagem---
+
 
 ### Response:
 ---imagem---
