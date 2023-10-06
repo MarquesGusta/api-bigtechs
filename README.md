@@ -47,7 +47,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 
 
 ### Resposta:
-![image](blob:https://teams.microsoft.com/28459a52-b11a-4872-a051-b45aabc3a77a)
+![image](https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(2).png?raw=true)
 
 ### erro
 ![image](blob:https://teams.microsoft.com/bc18e174-83b4-4e95-b6de-dd824d50ee95)
