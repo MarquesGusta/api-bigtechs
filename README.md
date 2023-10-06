@@ -7,7 +7,7 @@ Esta é uma API informativa que tem o objetivo de trazer os dados das 6 BigTechs
 
 ## Base URL 
 A base URL para todas as requisições da API é:
-[base URL](https://dizzy-knickers-fawn.cyclic.app/all)
+[base URL](https://dizzy-knickers-fawn.cyclic.app/all) 
 
 ## Endpoints
 
