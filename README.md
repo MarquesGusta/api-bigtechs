@@ -43,13 +43,14 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ### Requisição:
 
 #### GET /all
-[blob:https://teams.microsoft.com/50f06235-a744-4d27-acb8-6a0fc9835402]
+![image](https://github.com/MarquesGusta/api-bigtechs/assets/131712480/c55eeac7-df94-49a1-9fa3-bd53a1341ac1)
+
 
 ### Resposta:
-()
+![image](blob:https://teams.microsoft.com/28459a52-b11a-4872-a051-b45aabc3a77a)
 
 ### erro
-()
+![image](blob:https://teams.microsoft.com/bc18e174-83b4-4e95-b6de-dd824d50ee95)
 
 ## Erros
 
