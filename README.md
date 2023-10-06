@@ -40,15 +40,18 @@ Pode retornar objetos JSON com as seguintes propriedades:
  
 ## Example
 
-### Request:
+### Requisição:
 
 #### GET /all
+(blob:https://teams.microsoft.com/d5ac312c-8ed9-4ff7-a665-1883175bcea5)
 
+### Resposta:
+(blob:https://teams.microsoft.com/28459a52-b11a-4872-a051-b45aabc3a77a)
 
-### Response:
----imagem---
+### erro
+(blob:https://teams.microsoft.com/a55a855a-36e7-452d-b18f-f8061330d3f4)
 
-## Errors
+## Erros
 
 ### Esta API usa os seguintes códigos de erro:
 
