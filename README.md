@@ -2,7 +2,7 @@
 
 ## api-bigtechs
 
-## Description
+## Description 
 Esta é uma API informativa que tem o objetivo de trazer os dados das 6 BigTechs mais influentes da atualidade(microsoft, samsung, apple, sony, meta, google). Com ela você tem acesso a objetos JSON que retornam o nome da empresa, sua localidade, seus criadores, seu valor avaliado, foto e um breve resumo de sua história e funcionalidade.
 
 ## Base URL
