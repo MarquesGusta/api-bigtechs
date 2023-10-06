@@ -43,7 +43,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ### Requisição:
 
 #### GET /all
-(https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(1).png?raw=true)
+[https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(1).png?raw=true]
 
 ### Resposta:
 ()
