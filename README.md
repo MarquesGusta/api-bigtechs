@@ -12,7 +12,7 @@ A base URL para todas as requisições da API é:
 ## Endpoints
 
 ### `/all`
-Retorna todo o conteúdo da api.
+Retorna todo o conteúdo da api. 
 
 ### `/search/:chavePrimaria`
 Retorna o vetor que possui aquela chave primária específica.
