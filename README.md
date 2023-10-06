@@ -12,7 +12,7 @@ A base URL para todas as requisições da API é:
 ## Endpoints
 
 ### `/all`
-Retorna todo o conteúdo da api. 
+Retorna todo o conteúdo da api.
 
 ### `/search/:chavePrimaria`
 Retorna o vetor que possui aquela chave primária específica.
@@ -43,7 +43,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ### Requisição:
 
 #### GET /all
-[https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(1).png?raw=true]
+[blob:https://teams.microsoft.com/50f06235-a744-4d27-acb8-6a0fc9835402]
 
 ### Resposta:
 ()
