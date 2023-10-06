@@ -43,7 +43,7 @@ Pode retornar objetos JSON com as seguintes propriedades:
 ### Requisição:
 
 #### GET /all
-(blob:https://teams.microsoft.com/d5ac312c-8ed9-4ff7-a665-1883175bcea5)
+<img src=":https://teams.microsoft.com/d5ac312c-8ed9-4ff7-a665-1883175bcea5">
 
 ### Resposta:
 (blob:https://teams.microsoft.com/28459a52-b11a-4872-a051-b45aabc3a77a)
