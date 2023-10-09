@@ -23,9 +23,7 @@ app.get('/', (req, res) => {
         res.status(400).json("Server error")
     }
     finally{
-        res.status(200).json("Servidor on")
-        res.status(200).json("'/all' devolve todas as marcas")
-        res.status(200).json("'/search/:chavePrimaria' devolve apenas a marca com aquela chave primária")
+        res.status(200).json("Servidor on... '/all' devolve todas as marcas, '/search/:chavePrimaria' devolve apenas a marca com aquela chave primária")
     }
 
 })
