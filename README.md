@@ -11,6 +11,9 @@ A base URL para todas as requisições da API é:
 
 ## Endpoints
 
+### `/`
+Link inicial da api, onde informa se o servidor está online/offline e quais são as rotas que podem ser usadas para retornar conteúdo.
+
 ### `/all`
 Retorna todo o conteúdo da api.
 
