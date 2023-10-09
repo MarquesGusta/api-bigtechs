@@ -8,10 +8,25 @@ dotenv.config()//
 
 const methods = require('./models/methods')//
 
-// Função para conectar ao banco de dados
-conectar_bd()//
 
 // rotas
+
+app.get('/', (req, res) => {
+    
+    try{
+
+        // Função para conectar ao banco de dados
+        conectar_bd()
+
+    }
+    catch(error){
+        res.status(400).json("Server error")
+    }
+    finally{
+        res.status(200).json("Servidor on\n'/all' devolve todas as marcas\n'/search/:chavePrimaria' devolve apenas a marca com aquela chave primária")
+    }
+
+})
 
 app.get('/all', (req, res) => {//
 
