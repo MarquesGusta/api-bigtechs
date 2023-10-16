@@ -2,9 +2,12 @@
 const express = require('express');//
 const app = express();//
 const mongoose = require('mongoose');//
+const cors = require('cors');
 const conectar_bd = require('./service/mongo_connect')//
 const dotenv = require('dotenv')//
 dotenv.config()//
+
+app.use(cors());
 
 const methods = require('./models/methods')//
 
