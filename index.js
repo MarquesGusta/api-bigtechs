@@ -23,8 +23,7 @@ app.get('/', (req, res) => {
 
     }
     catch(error){
-        res.status(400).json("Server error" + error)
-        console.log(error)
+        res.status(400).json("Server error")
     }
     finally{
         res.status(200).json("Servidor on... '/all' devolve todas as marcas, '/search/:chavePrimaria' devolve apenas a marca com aquela chave primária")
@@ -32,7 +31,7 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/all', (res) => {//
+app.get('/all', (req, res) => {//
 
     // Guarda os valores do modelo em uma variável
     let resultado =  methods.find()//
