@@ -50,10 +50,10 @@ Pode retornar objetos JSON com as seguintes propriedades:
 
 
 ### Resposta:
-![image](https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(2).png?raw=true)
+![alt text](https://i.ibb.co/vH1XQ5n/respall.jpg)
 
 ### erro
-![image](https://github.com/MarquesGusta/api-bigtechs/blob/main/imagens%20readme/MicrosoftTeams-image%20(3).png?raw=true)
+![alt text](https://i.ibb.co/XksY4KZ/Microsoft-Teams-image-1.png)
 
 ## Erros
  
