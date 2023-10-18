@@ -31,27 +31,45 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/all', (req, res) => {
-  MethodsModel.find({}, (err, resultado) => {
-    if (err) {
-      res.status(500).json("Erro: " + err);
-    } else {
-      res.status(200).send(resultado);
-    }
-  });
-});
+app.get('/all', (req, res) => {//
 
-app.get('/search/:chavePrimaria', (req, res) => {
-  MethodsModel.findOne({ chavePrimaria: req.params.chavePrimaria }, (err, resultado) => {
-    if (err) {
-      res.status(500).json("Erro: " + err);
-    } else if (resultado) {
-      res.status(200).send(resultado);
-    } else {
-      res.status(404).json("Resource not found");
-    }
-  });
-});
+    // Guarda os valores do modelo em uma variável
+    let resultado =  methods.find()//
+    .then(//
+        (resultado) => {//
+            if(resultado){//
+                // Caso dê certo devolve as informações
+                res.status(200).send(resultado)//
+            }//
+            else{//
+                res.status(404).json("Resource not found")  // Erro na requisição//
+            }//
+        } //
+    )//
+    .catch((err) =>{//
+        res.status(500).json("Erro : " + err) // Erro no servidor
+    })//
+})//
+
+app.get("/search/:chavePrimaria" , (req,res) =>{
+
+    let resultado =  methods.findOne({chavePrimaria: req.params.chavePrimaria})//
+    .then(//
+        (resultado) => {//
+            if(resultado){//
+                // Caso dê certo devolve as informações
+                res.status(200).send(resultado)//
+            }//
+            else{//
+                res.status(404).json("Resource not found")  // Erro na requisição//
+            }//
+        } //
+    )//
+    .catch((err) =>{//
+        res.status(500).json("Erro : " + err) // Erro no servidor
+    })//
+
+})
 
 // Porta da api
 
