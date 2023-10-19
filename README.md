@@ -40,6 +40,9 @@ Pode retornar objetos JSON com as seguintes propriedades:
 - `valorAvaliada`: Valor avaliado da empresa em dólares.
 - `img`: imagem da empresa em questão.
 
+## Diretrizes
+
+A API tem uma média de requisições por minutos, logo cuidado ao realizá-las, são cerca de 10 requisições permitidas em 10 minutos. Se extrapolado esse limite você está sujeito à problemas no recebimento dos dados.
  
 ## Example
 
