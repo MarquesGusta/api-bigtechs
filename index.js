@@ -7,8 +7,7 @@ const conectar_bd = require('./service/mongo_connect')//
 const dotenv = require('dotenv')//
 dotenv.config()//
 
-app.use(cors());
-
+app.use(cors({origin: '*'}));
 const methods = require('./models/methods')//
 
 
