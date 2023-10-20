@@ -5,9 +5,8 @@ dotenv.config()
 
 // Função que conecta ao bando de dados do MongoDB
 async function conectar_bd (){
-mongoose
+mongoose.connect(
     // Link do banco de dados
-    .connect(
        `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.aschwu5.mongodb.net/?retryWrites=true&w=majority`,
     )
     .then(() => {
