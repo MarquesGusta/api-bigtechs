@@ -10,6 +10,7 @@ dotenv.config()//
 app.use(cors({origin: '*'}));
 const methods = require('./models/methods')//
 
+// chamada da função para conectar com o banco de dados com o servidor
 conectar_bd()
 
 // rotas
